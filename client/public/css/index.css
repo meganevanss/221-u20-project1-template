@@ -1,18 +1,18 @@
 body {
-	
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Goldfish-Crackers.jpg/240px-Goldfish-Crackers.jpg");
 }
 
 #splash_title {
 	width: 100%;
   font-size: 100px;
-  color: red;
+  color: white;
   opacity: 0.85;
   text-shadow: 4px 4px 4px rgba(255, 255, 255);
   text-align: center;
 }
 
 .menu_button {
-	background-color: rgba(255, 0, 0, 0.5);
+	background-color: orange;
     font-size: 28px;
     color: white;
     cursor: pointer;
