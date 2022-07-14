@@ -7,31 +7,6 @@ request from the route, opens the request (gets any information sent from the cl
 works with the model, querying or changing the model as needed. The controller then usually
 responds to the client with information requested or a confirmation that everything worked or
 failed.*/
-function User(id, first, last, email, password) {
-	this.id = id;
-	this.firstName = first;
-	this.lastName = last;
-	this.email = email;
-	this.password = password;
-}
-
-function userSession() {
-	this.uuid = guid();
-	this.clickCount = 0;
-	this.lastRequestTime = new Date.now();
-}
-let sessions = [];
-
-exports.checkSession = function(sessionId) {
-	if(sessions.length > 0) {
-		for(let i in sessions) {
-			if(sessions[i].uuid == sessionId) {
-				return session[i];
-			}
-		}
-	}
-	return null;
-}
 
 
 var feedItem = require('../model/feedItem');
