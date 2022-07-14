@@ -20,3 +20,9 @@ function displayItem(){
 
 window.addEventListener('load', displayItem);
 document.getElementById("portal_button").addEventListener("click", () => goToLocation("https://www.goldfishfun.com/"));
+
+/*Create asynchronous calls between the client and server sides of your application for
+your feed. You must implement the following API calls:
+a. GET /api/feed (get all stories)
+b. DELETE /api/feed/:id (delete a story by id)
+c. POST /api/feed (add a new story)*/
